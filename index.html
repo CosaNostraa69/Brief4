@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>My Quizz!</title>
+  </head>
+  <body>
+    <header class="header_wrapper">
+      <img class="header_img" src="./images/logo.png" alt="logo" />
+    </header>
+    <main>    
+      <article>
+        <div class="hero_wrapper">
+          <div id="hidden_class1"  class="home_text display">
+            <h1>Quiz sur la santé</h1>
+            <h2 class="hero_paragraph">
+              Viens defier tes amis sur des questions
+            </h2>
+            <div class="button_wrapper">
+              <button class="hero_button" type="button" id="button_1">C'est parti!</button>
+            </div>
+          </div>
+          
+                        <!--Question/Reponse 1-->
+          
+          <div id="hidden_class2" class="question_wrapper hidden">
+            <div id="question_div">
+            <h3 class="question" >Question 1: Quelle est la maladie génétique la plus courante dans le monde ?</h3>
+            <div class="choices">
+              <div class="choice" data-answer="false">La mucoviscidose</div>
+              <div class="choice" data-answer="true">La drépanocytose</div>
+              <div class="choice" data-answer="false">La maladie de Huntington</div>
+              <div class="choice" data-answer="false">La dystrophie musculaire de Duchenne</div>
+             
+              
+            
+            </div>
+          
+            
+            </div>
+          </div>
+          <div id="hidden_class3"  class="answer_display hidden">
+            <h3 class="goodjob_answer"></h3>
+            <h2>Reponse</h2>
+            <p class="answer_title">
+              La drépanocytose est une maladie génétique héréditaire qui affecte les globules rouges. Elle est particulièrement répandue en Afrique subsaharienne, mais elle est également présente dans d'autres parties du monde. Environ 300 000 enfants naissent chaque année avec cette maladie dans le monde.
+       </p>
+            <div class="button_answer_wrapper">
+              <button class="answer_button" type="button" id="button_3">Prochaine Question</button>
+            </div>
+          </div>
+
+
+                        <!--Question/Reponse 2-->
+
+
+
+          <div id="hidden_class4" class="question_wrapper2 hidden">
+            <div id="question_div2">
+            <h3 class="question" >Question 2: Quel est le nom de la maladie qui se caractérise par une inflammation chronique des articulations et peut causer des dommages permanents aux articulations touchées?
+
+            </h3>
+            <div class="choices">
+              <div class="choice2" data-answer="false">Sclérose en plaques</div>
+              <div class="choice2" data-answer="false">Asthme</div>
+              <div class="choice2" data-answer="true">Arthrite</div>
+              <div class="choice2" data-answer="false">Maladie d'Alzheimer</div>
+            
+            </div>
+          </div>
+              <div id="hidden_class5"  class="answer_display2 hidden">
+                <h3 class="goodjob_answer2"></h3>
+                <h2>Reponse</h2>
+                <p class="answer_title">
+                  L'arthrite est une maladie inflammatoire qui affecte les articulations et peut causer des douleurs, une raideur, un gonflement et une réduction de la mobilité. L'inflammation chronique peut également entraîner des dommages permanents aux articulations touchées           </p>
+                <div class="button_answer_wrapper">
+                  <button class="answer_button" type="button" id="button_4">Prochaine Question</button>
+                </div>
+              </div>
+           
+        </div>
+        </div>
+      </article>
+    </main>
+    <script src="./script.ts"></script>
+  </body>
+</html>
